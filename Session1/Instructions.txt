@@ -1,0 +1,12 @@
+Prerequisites:
+1. Local Installation of Python
+   Download Link: https://www.python.org/downloads/
+2. VS Code extenasion for Python
+
+Steps:
+1. Open CMD
+2. Navigate to the root folder of the project "Python Training"
+3. Create vitual environment using command: python -m venv ptenv
+4. In VSCode, press Ctrl+Shift+P and type "Python: Select Interpreter" and select the virtual env created in step 3.
+5. From VSCode, when you open a python script, the bottom right corner of the IDE should reflect the ven selected 
+   as the interpreter.
