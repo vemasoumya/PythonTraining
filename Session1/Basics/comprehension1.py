@@ -1,4 +1,8 @@
 #easy logic to generate elements in the list
+
+# A comprehension is a concise and readable way to create lists, dictionaries, or sets
+
+
 l1 = [num**2 for num in range(1,100)]
 print(l1)
 l2 = [char for char in "SoumyaVema" if char.lower() in ['a','e','i'] ]
