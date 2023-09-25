@@ -7,10 +7,17 @@ if temp == 10:
 
 #ndentation Matters
 
+
 temp = 60
 if temp == 10:
     print(temp)
 #print("fine")
+
+#multi line comment
+"""
+a = 1
+b = 2
+"""
 
 #dynamic typed language
 x = 5
@@ -20,10 +27,6 @@ name = "Alice"
 print(x)
 print(y)
 print(name)
-
-#Mixed type Lists
-mixed_list = [1, "two", 3.0, True]
-
 
 #changing Variable type 
 age = 25

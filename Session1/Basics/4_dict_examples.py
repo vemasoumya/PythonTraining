@@ -1,4 +1,7 @@
-# Create a dictory with key and value
+#key value pairs
+#key is immutable and values are mutable 
+# Create a dictionary
+# no order 
 person = {"name": "John", "age": 30, "city": "New York"}
 
 #how to access dictory values using key
@@ -41,5 +44,7 @@ people = [
 # Accessing values for specific people
 john_name = people[0]["name"]
 alice_age = people[1]["age"]
+
+multi_dict = {"name": "John", "age": 30, "city": "New York", "1" : [1,2,3,4]}
 
 

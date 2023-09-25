@@ -1,5 +1,6 @@
+# everything in Python is an object
 # attributes and methods (Encapsulation)
-class PlayerCharacter:
+class PlayerCharacter(object):
     #class object attribute
     #common for all objects
     membership = True 
@@ -30,11 +31,10 @@ class PlayerCharacter:
 player1 = PlayerCharacter("Rahul", 20)
 print(player1)
 player1.run()
-# player2 = PlayerCharacter("Raj", 20)
-# player2.run()
-# player3 = PlayerCharacter()
-# print(player3)
-# player3.run()
+player3 = PlayerCharacter()
+print(player3)
+#player3.run()
+
 # print("testing class method")
 # print(PlayerCharacter.adding_numbers(10,12) )
 #print(PlayerCharacter.adding_numbers_new(1,1))

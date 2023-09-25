@@ -1,5 +1,12 @@
+#insertion order is preserved
+#duplicates can be stored
+#Mutable
+#heterogenous types
 Names = ["Amit","Anika","Bhavy","Deepa","Gagan","Ishaa","Karan"]
 Names2 =  ["get","Bet"]
+#Mixed type Lists
+mixed_list = [1, "two", 3.0, True]
+
 # get the length of list 
 print(len(Names))
 
