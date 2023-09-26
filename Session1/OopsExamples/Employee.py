@@ -2,13 +2,13 @@
 class Employee:
     def __init__(self,name, empid, department):
         #no functionality for Private variables in Python 
-        #we use _ to hint the programmers not to modify it
-        self._name = name
+        #we use __ to hint the programmers not to modify it
+        self.__name = name
         self.__empid = empid
         self.department = department
 
     def get_employee_details(self):
-        print("name is:", self._name)
+        print("name is:", self.__name)
         print("empid is: ", self.__empid)
         print("department is:", self.department)
 

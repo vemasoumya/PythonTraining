@@ -1,4 +1,4 @@
-with  open(r'C:\VSCODEREPOS\Pythontraining\Session1\Basics\Files\SampleFile1.txt') as file:
+with  open(r'C:\VSCODEREPOS\Pythontraining\Session1\Files\TestFiles\SampleFile1.txt') as file:
     for i in file:
         print(i)
 
