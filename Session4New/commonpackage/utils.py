@@ -4,13 +4,14 @@ class Utils:
         return df_parquet
     
     def read_csv(self, spark, path , **kw):
-        if kw["delimiter"]:
+        if "delimiter" in kw:
             delimiter = kw["delimiter"]
         else:
             delimiter = ","
 
-        if kw["header"]:
-            header = True
+        if "header" in kw:
+            print("header is passed")
+            header = kw["header"]
         else:
             header = False 
 
