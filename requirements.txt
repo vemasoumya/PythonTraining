@@ -1,5 +1,6 @@
 pyspark==3.3.2
 delta-spark==2.2.0
-databrics-cli
 databricks
 wheel
+databricks-connect
+databrics-cli

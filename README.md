@@ -40,3 +40,15 @@ How to create a wheel file
 
 python setup.py bdist_wheel
 
+
+# Cluster Setup
+
+First you need to enable the feature on your Databricks cluster. Your cluster must be using Databricks Runtime 5.1 or higher. In the web UI edit your cluster and add this/these lines to the spark.conf:
+
+spark.databricks.service.server.enabled true
+
+If you are using Azure Databricks also add this line:
+
+spark.databricks.service.port 8787
+
+Restart your cluster.
