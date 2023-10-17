@@ -1,6 +1,4 @@
-# Databricks notebook source
 from pyspark.sql import SparkSession
-
 class CSVStreamReader:
     
     def __init__(self, spark, input_path, output_path, checkpoint_location, schema, trigger_interval="10 seconds"):
